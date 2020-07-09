@@ -42,7 +42,7 @@ def create():
                 try:
                     donor = Donor(name=request.form['name'])
                     donor.save()
-                except IntegrityError:
+                except:
                     donor = Donor.select().where(Donor.name==request.form['name']).get()
                 donation = Donation(value=request.form['donation'], donor=donor)
                 donation.save()
