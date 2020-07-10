@@ -1,6 +1,7 @@
 # Flask Mailroom Application
 
 Running at [https://aqueous-sea-61625.herokuapp.com/donations/](https://aqueous-sea-61625.herokuapp.com/donations/).
+DID OPTIONAL TASKS: #1 & #2.
 
 ## Your Task
 
